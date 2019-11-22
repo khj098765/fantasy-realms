@@ -2,6 +2,7 @@ var deck = {
   cards: [{
       id: 1,
       suit: 'Land',
+      title: '땅',
       name: '산',
       strength: 9,
       bonus: '<span class="weather">연기</span>와 <span class="flame">들불</span>이 모두 있으면 +50. <br />모든 <span class="flood">물</span>의 패널티 제거.',
@@ -73,6 +74,7 @@ var deck = {
     {
       id: 6,
       suit: 'Flood',
+      title: '물',
       name: '생명의 샘',
       strength: 1,
       bonus: '가지고 있는 <span class="weapon">무기</span>, <span class="flood">물</span>, <span class="flame">불</span>, <span class="land">땅</span> or <span class="weather">날씨</span> 중 1장의 기본 힘 더하기.',
@@ -150,6 +152,7 @@ var deck = {
     {
       id: 11,
       suit: 'Weather',
+      title: '날씨',
       name: '폭풍우',
       strength: 8,
       bonus: '<span class="flood">물</span> 1장당 +10.',
@@ -225,6 +228,7 @@ var deck = {
     {
       id: 16,
       suit: 'Flame',
+      title: '불',
       name: '들불',
       strength: 40,
       bonus: null,
@@ -292,6 +296,7 @@ var deck = {
     {
       id: 21,
       suit: 'Army',
+      title: '군대',
       name: '기사단',
       strength: 20,
       bonus: null,
@@ -361,6 +366,7 @@ var deck = {
     {
       id: 26,
       suit: 'Wizard',
+      title: '마법사',
       name: '수집가',
       strength: 7,
       bonus: '종류가 같고, 이름은 같지 않은 카드 3장당 +10, 4장 +40, 5장 +100.',
@@ -445,6 +451,7 @@ var deck = {
     {
       id: 31,
       suit: 'Leader',
+      title: '지도자',
       name: '왕',
       strength: 8,
       bonus: '<span class="army">군대</span> 1장당 +5. <br />또는 <span class="leader">여왕</span>이 있으면, <span class="army">군대</span> 1장당 +20.',
@@ -519,6 +526,7 @@ var deck = {
     {
       id: 36,
       suit: 'Beast',
+      title: '야수',
       name: '유니콘',
       strength: 9,
       bonus: '<span class="leader">공주</span>가 있으면 +30. <br />또는 <span class="leader">황후</span>, <span class="leader">여왕</span>, <span class="leader">여마도사</span> 중 하나라도 있으면 +15.',
@@ -586,6 +594,7 @@ var deck = {
     {
       id: 41,
       suit: 'Weapon',
+      title: '무기',
       name: '전함',
       strength: 23,
       bonus: '모든 <span class="flood">물</span>의 페널티에서 <span class="army">군대</span>를 제거.',
@@ -651,6 +660,7 @@ var deck = {
     {
       id: 46,
       suit: 'Artifact',
+      title: '유물',
       name: '케드의 방패',
       strength: 4,
       bonus: '<span class="leader">지도자</span>가 하나라도 있으면 +15. <br />또는 <span class="leader">지도자</span>가 하나라도 있고, <span class="weapon">케드의 검</span>이 있으면 +40.',
@@ -746,6 +756,7 @@ var deck = {
     {
       id: 51,
       suit: 'Wild',
+      title: '불명',
       name: '변신 능력자',
       strength: 0,
       bonus: '게임 전체의 <span class="artifact">유물</span>, <span class="leader">지도자</span>, <span class="wizard">마법사</span>, <span class="weapon">무기</span>, <span class="beast">야수</span> 중 1장의 이름과 종류를 복사 가능. <br />보너스, 페널티, 기본 힘은 복사 불가.',
